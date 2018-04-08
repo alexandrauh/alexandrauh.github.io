@@ -159,7 +159,7 @@ link:link {
 }
 
 .item {
-  padding: 0px 40px 40px 40px;
+  padding: 0px 20px 40px 40px;
   width: 900px;
 }
 
@@ -267,4 +267,12 @@ link:link {
   .hide-m {
     display: none;
      }   /* hide it elsewhere */
+}
+
+@media screen and (max-width: 800px) {
+  .column-2 {
+    display: block;
+    column-count: 1;
+  }
+     }   /* hide it */
 }
