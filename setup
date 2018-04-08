@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Wanjin</title>
+    <meta name="keywords" content="nyckelord">
+    <meta name="descriprion" content="text">
+  </head>
+  <body>
+    <center>
+      <p><a href="#">Links</a> <a href="#">About</a> <a href="#">Setup</a></p>
+      <img src="./images/Wanjin_logo.png" alt="Wanjin"/></br>
+      <img src="./images/header.jpg" alt="Bildtext on hover" width="1200px"/>
+      <p><a href="http://www.twitter.com/wanjingaming"><img src="./images/twitt.png" alt="Twitter" height="50px"/></a>
+        <a href="http://www.facebook.com/wanjingaming">Facebook</a>
+        <a href="http://www.twitch.tv/wanjin"><img src="./images/twitch.png" alt="Twitch" height="50px"/></a>
+        <a href="http://www.instagram.com/wanjinirl"><img src="./images/insta.png" alt="Instagram" height="50px"/></a>
+        <a href="http://www.youtube.com/wanjin"><img src="./images/yt.png" alt="YouTube" height="50px"/></a></p>
+      </center>
+
+      <h1>Setup</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed cursus eros. Quisque nec interdum justo, eget posuere enim. Donec at fringilla dolor, at egestas ex. Pellentesque sit amet laoreet enim. Duis rhoncus, est nec mollis volutpat, libero arcu molestie lorem, sit amet sollicitudin eros nulla id eros. Pellentesque tellus magna, tempus non dui in, imperdiet placerat lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut sit amet erat porta lacus tempor semper. Aenean euismod ornare lacinia. Nunc congue auctor lorem nec faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque elit ipsum, malesuada sed convallis eget, vestibulum vel ligula. Sed eget tincidunt sapien, id lobortis ipsum. Ut dictum efficitur augue, ac sollicitudin lectus consectetur at. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent sit amet consequat turpis. Sed rutrum, magna non ornare consectetur, ante massa eleifend quam, non faucibus diam massa sed dolor. Vivamus rutrum, eros sit amet tincidunt consequat, sapien neque viverra lectus, vitae gravida nunc erat bibendum dolor. Sed dapibus risus in sem rhoncus rutrum. Sed rutrum ullamcorper ipsum eu tempor. Pellentesque et sem sed diam suscipit aliquet. Praesent ac imperdiet dui. Aenean eu neque viverra, ornare ante sit amet, fringilla sapien. Pellentesque vestibulum molestie massa ut cursus.
+      <a href="http://google.se" alt="Google">Link</a></p>
+  </body>
+</html>

@@ -1,0 +1,270 @@
+h1 {
+  color: #fff;
+  font-family: "raleway";
+  font-size: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h2 {
+  color: #000;
+  font-family: "raleway";
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+h4 {
+  color: #fff;
+  font-family: "raleway";
+  font-size: 23px;
+  font-weight: 500;
+  margin: 20px 0px 0px 20px;
+}
+
+p {
+  color: #333;
+  font-family: "myriad pro";
+  font-weight: lighter;
+  margin: 20px 20px 20px 20px
+}
+
+h6 {
+  font-family: "raleway";
+  font-weight: bolder;
+  font-size: 130px;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.strong-blue {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+#vertical {
+  width: 1px;
+  word-wrap: break-word;
+  float: left;
+  margin: 30px 0px 0px 0px;
+  line-height: 90%;
+
+}
+
+#vertical-right {
+  width: 1px;
+  word-wrap: break-word;
+  float: right;
+  margin: 30px 90px 30px 30px;
+  line-height: 90%;
+
+}
+
+
+.column-2 {
+  column-count: 2;
+  column-gap: 30px;
+}
+
+.light {
+  color: #fff;
+  font-size: 20px;
+}
+
+.big {
+  font-size: 20px;
+}
+
+a:link {
+  color: #999;
+  text-decoration: none;
+}
+
+a:visited {
+    color: #999;
+}
+
+a:hover {
+    color: #ccc;
+}
+
+a:active {
+    color: #ccc;
+}
+
+.blink:link {
+  color: rgb(57,134,167);
+  text-decoration: none;
+}
+
+.blink:visited {
+    color: rgb(57,134,167);
+}
+.blink:hover {
+    color: rgb(57,134,167,0.5);
+}
+
+.blink:active {
+    color: rgb(57,134,167);
+}
+
+.wlink:link {
+  color: rgb(255,255,255);
+  text-decoration: none;
+}
+
+.wlink:visited {
+    color: rgb(255,255,255);
+}
+.wlink:hover {
+    color: rgb(255,255,255,0.5);
+}
+
+.wlink:active {
+    color: rgb(255,255,255);
+}
+
+.margin {
+  margin: 0px 40px 0px 20px;
+}
+
+link:link {
+  color: #000;
+  text-decoration: none;
+}
+
+.primary {
+  background-color: rgb(57,134,167);
+  padding: 30px;
+}
+
+.secondary {
+  background-color: rgb(57,134,167,0.5);
+  padding: 30px;
+}
+
+.fa-2x {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-setup {
+  display: flex;
+  align-items: center;
+  /* justify-content: center;*/
+}
+
+.item {
+  padding: 0px 40px 40px 40px;
+  width: 900px;
+}
+
+.item1 {
+  padding: 50px;
+  width: 500px;
+  height: 500px;
+  border-style: solid;
+  border-color: black;
+}
+
+.item2 {
+  padding: 50px;
+  width: 500px;
+  height: 500px;
+  background-color: green;
+}
+
+.item3 {
+  margin: 20px 0px 0px 50px;
+  padding: 0px 0px 40px 40px;
+  width: 500px;
+}
+
+.spec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spec-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parallax {
+    background-image: url("./images/header.jpg");
+    height: 700px;
+
+    /* parallax */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+}
+
+.parallax-about {
+    background-image: url("./images/music.jpg");
+    height: 500px;
+
+    /* parallax */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+}
+
+.parallax-setup {
+    background-image: url("./images/setup.jpg");
+    height: 500px;
+
+    /* parallax */
+    background-position: top;
+    background-size: cover;
+
+    text-align: center;
+}
+
+.link {
+  text-align: center;
+  margin: auto;
+}
+
+.hide-m {
+  margin-left: 200px;
+}
+
+@media only screen and (min-width: 760 px;) {
+  .my text {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 580px) {
+  .item3 {
+    display: block;
+    margin: 20px 0px 0px 50px;
+    padding: 0px 0px 40px 100px;
+    width: 500px;
+     }  /* show it on small screens */
+}
+
+@media screen and (max-width: 1060px) {
+  .hide-m {
+    display: none;
+     }   /* hide it elsewhere */
+}
