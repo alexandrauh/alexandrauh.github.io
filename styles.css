@@ -25,6 +25,7 @@ p {
   color: #333;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
+  line-height: 140%;
   margin: 20px 20px 20px 20px
 }
 
@@ -66,7 +67,7 @@ h6 {
 
 .light {
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .big {
