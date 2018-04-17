@@ -1,6 +1,6 @@
 h1 {
   color: #fff;
-  font-family: "raleway";
+  font-family: 'Raleway', sans-serif;
   font-size: 60px;
   padding-left: 20px;
   padding-right: 20px;
@@ -8,14 +8,14 @@ h1 {
 
 h2 {
   color: #000;
-  font-family: "raleway";
+  font-family: 'Raleway', sans-serif;
   font-weight: lighter;
   font-size: 25px;
 }
 
 h4 {
   color: #fff;
-  font-family: "raleway";
+  font-family: 'Raleway', sans-serif;
   font-size: 23px;
   font-weight: 500;
   margin: 20px 0px 0px 20px;
@@ -29,7 +29,7 @@ p {
 }
 
 h6 {
-  font-family: "raleway";
+  font-family: 'Raleway', sans-serif;
   font-weight: bolder;
   font-size: 130px;
   color: rgba(255, 255, 255, 0.2);
