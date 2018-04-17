@@ -255,6 +255,29 @@ link:link {
   margin-left: 200px;
 }*/
 
+@media screen and (max-width: 479px){
+
+.parallax {
+    -moz-background-size: auto;
+    -webkit-background-size: auto;
+    background-attachment: scroll;
+    background-position: top;
+    background-size: auto;
+   }
+}
+
+@media screen and (max-width: 479px){
+
+.parallax-about {
+    -moz-background-size: auto;
+    -webkit-background-size: auto;
+    background-attachment: scroll;
+    background-position: top;
+    background-size: auto;
+   }
+}
+
+
 @media only screen and (min-width: 760 px;) {
   .my text {
     font-size: 30px;
