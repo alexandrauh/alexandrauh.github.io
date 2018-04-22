@@ -279,12 +279,6 @@ link:link {
 }
 
 
-@media only screen and (min-width: 760 px;) {
-  .my text {
-    font-size: 30px;
-  }
-}
-
 @media screen and (min-width: 580px) {
   .item3 {
     display: block;
@@ -314,10 +308,16 @@ link:link {
     align-items: center;
     justify-content: center;
      }   /* hide it on smaller devices */
-.get-m {
-  background-color: rgb(57,134,167,0.5);
-  padding: 30px;
+  .get-m {
+    background-color: rgb(57,134,167,0.5);
+    padding: 30px;
   }
+}
+
+@media screen and (max-width: 1080px) {
+  #vertical {
+    display: none;
+     }   /* hide it on smaller devices */
 }
 
 /*
