@@ -211,29 +211,15 @@ link:link {
 }
 
 .parallax {
-    background-image: url("./images/header.jpg");
+    background: transparent;
     height: 700px;
-
-    /* parallax */
-    background-attachment: fixed;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
 
     text-align: center;
 }
 
 .parallax-about {
-    background-image: url("./images/music.jpg");
+    background: transparent;
     height: 500px;
-
-    /* parallax */
-    background-attachment: fixed;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    text-align: center;
 }
 
 .parallax-setup {
